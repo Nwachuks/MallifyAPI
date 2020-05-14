@@ -1,5 +1,3 @@
-using System;
-
 namespace Mallify.API.Models
 {
     public class Product

@@ -1,4 +1,3 @@
-using System;
 using System.ComponentModel;
 
 namespace Mallify.API.Models
