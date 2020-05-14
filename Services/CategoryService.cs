@@ -2,14 +2,20 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Mallify.API.Models;
+using Mallify.API.Repositories;
 
 namespace Mallify.API.Services
 {
     public class CategoryService : ICategoryService
     {
-        public Task<IEnumerable<Category>> ListAsync()
+        private readonly ICategoryRepository _categoryRepository;
+        public CategoryService(ICategoryRepository categoryRepository)
         {
-            throw new NotImplementedException();
+            _categoryRepository = categoryRepository;
+        }
+        public async Task<IEnumerable<Category>> ListAsync()
+        {
+            return await _categoryRepository.ListAsync();
         }
     }
 }
