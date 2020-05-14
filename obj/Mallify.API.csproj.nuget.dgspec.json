@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\Projects\\Mallify.API\\Mallify.API.csproj": {}
+    "c:\\Users\\User\\Documents\\Projects\\Mallify.API\\Mallify.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\Projects\\Mallify.API\\Mallify.API.csproj": {
+    "c:\\Users\\User\\Documents\\Projects\\Mallify.API\\Mallify.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\Projects\\Mallify.API\\Mallify.API.csproj",
+        "projectUniqueName": "c:\\Users\\User\\Documents\\Projects\\Mallify.API\\Mallify.API.csproj",
         "projectName": "Mallify.API",
-        "projectPath": "C:\\Users\\User\\Documents\\Projects\\Mallify.API\\Mallify.API.csproj",
+        "projectPath": "c:\\Users\\User\\Documents\\Projects\\Mallify.API\\Mallify.API.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\Projects\\Mallify.API\\obj\\",
+        "outputPath": "c:\\Users\\User\\Documents\\Projects\\Mallify.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -38,6 +38,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
