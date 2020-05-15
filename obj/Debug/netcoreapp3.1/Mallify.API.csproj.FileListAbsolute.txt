@@ -51,3 +51,5 @@ C:\Users\User\Documents\Projects\Mallify.API\obj\Debug\netcoreapp3.1\Mallify.API
 C:\Users\User\Documents\Projects\Mallify.API\obj\Debug\netcoreapp3.1\Mallify.API.csproj.CopyComplete
 C:\Users\User\Documents\Projects\Mallify.API\obj\Debug\netcoreapp3.1\Mallify.API.dll
 C:\Users\User\Documents\Projects\Mallify.API\obj\Debug\netcoreapp3.1\Mallify.API.pdb
+C:\Users\User\Documents\Projects\Mallify.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\User\Documents\Projects\Mallify.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
