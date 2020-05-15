@@ -31,10 +31,14 @@ namespace Mallify.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddMvc(options => options.EnableEndpointRouting = false)
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             services.AddDbContext<AppDbContext>(options => {
                 options.UseInMemoryDatabase("mall-api-in-memory");
             });
+
+            // MvcOptions.EndpointRouting = false;
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<ICategoryService, CategoryService>();
@@ -50,14 +54,15 @@ namespace Mallify.API
 
             app.UseHttpsRedirection();
             app.UseMvc();
-            app.UseRouting();
+            // app.UseRouting();
+            // app.UseRouting();
 
-            app.UseAuthorization();
+            // app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            // app.UseEndpoints(endpoints =>
+            // {
+            //     endpoints.MapControllers();
+            // });
         }
     }
 }

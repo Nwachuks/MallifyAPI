@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Mallify.API.Controllers
 {
     [ApiController]
-    [Route("/api/[controller")]
+    [Route("/api/[controller]")]
     public class CategoriesController : Controller
     {
         private readonly ICategoryService _categoryService;
