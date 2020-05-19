@@ -9,5 +9,7 @@ namespace Mallify.API.Repositories
     {
         Task<IEnumerable<Category>> ListAsync();
         Task AddAsync(Category category);
+        Task<Category> FindByIdAsync(int id);
+        void Update(Category category);
     }
 }
